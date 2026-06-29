@@ -7,6 +7,10 @@ party game wrapped from web tech). Work top to bottom.
 Legend: 🚪 = hard stage gate (you can't proceed without it) · ⚠️ = review-risk
 hurdle (could get the app rejected) · ✅ = already handled in this repo.
 
+> 💡 For the actual data-entry, use [`APP_STORE_CONNECT_CHEATSHEET.md`](./APP_STORE_CONNECT_CHEATSHEET.md)
+> — every field in App Store Connect order with copy/paste-ready values. This
+> document is the surrounding *process* (gates, hurdles, decisions).
+
 ---
 
 ## 0. Prerequisites (hard gates)

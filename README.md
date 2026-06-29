@@ -60,6 +60,7 @@ This repo is set up to ship. Start here:
    the full checklist, stage gates, and review-risk hurdles.
 2. **[`docs/IOS_BUILD.md`](./docs/IOS_BUILD.md)** — exact Mac/Xcode build & upload steps.
 3. **[`store/listing.md`](./store/listing.md)** — name, description, keywords, age-rating answers.
+4. **[`store/APP_STORE_CONNECT_CHEATSHEET.md`](./store/APP_STORE_CONNECT_CHEATSHEET.md)** — every App Store Connect field in order, copy/paste ready.
 
 ## Contributing & roadmap
 
