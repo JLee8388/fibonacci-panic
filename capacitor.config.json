@@ -1,0 +1,17 @@
+{
+  "appId": "com.jlee8388.shortfuse",
+  "appName": "Short Fuse",
+  "webDir": "www",
+  "backgroundColor": "#171717ff",
+  "ios": {
+    "contentInset": "never",
+    "backgroundColor": "#171717ff"
+  },
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 600,
+      "backgroundColor": "#171717ff",
+      "showSpinner": false
+    }
+  }
+}
