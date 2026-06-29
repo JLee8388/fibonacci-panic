@@ -1,33 +1,50 @@
-# Hosting the Support & Privacy Policy pages (free, via GitHub Pages)
+# Hosting the Support & Privacy Policy pages (GitHub Pages)
 
 Apple requires a **Privacy Policy URL** and a **Support URL** for every app.
 This repo already contains a small public website in [`../docs/`](../docs/):
 
-- `docs/index.html` — landing + support page (use as your **Support / Marketing URL**)
-- `docs/privacy-policy.html` — the **Privacy Policy URL**
-- `docs/.nojekyll` — tells GitHub Pages to serve the files as-is
+- `docs/index.html` — landing + support page (your **Support / Marketing URL**)
+- `docs/privacy-policy.html` — your **Privacy Policy URL**
 
-You just need to turn GitHub Pages on. It's free and takes about a minute.
+## Good news: Pages is already enabled
 
-## One-time setup
+GitHub Pages is already turned on for this repo and is configured to **deploy
+from the `main` branch (root folder)**. Its last build was the old project
+content (from before this work). You don't need to enable anything.
 
-1. Support contact email is already set to `questions@ailaunchingpad.com` in the
-   `docs/` pages. (Change it later if you ever want a different address.)
-2. Merge this PR (or push these files to your **default branch**, `main`).
-3. On GitHub, go to the repo → **Settings → Pages**.
-4. Under **Build and deployment → Source**, choose **Deploy from a branch**.
-5. Set **Branch** = `main` and **Folder** = `/docs`. Click **Save**.
-6. Wait ~1 minute. Pages publishes the site.
+## What you need to do: just merge
 
-## Your live URLs
+GitHub Pages auto-rebuilds whenever `main` changes. So:
 
-After Pages finishes building (repo `JLee8388/fibonacci-panic`):
+1. **Merge this PR into `main`.**
+2. Pages automatically runs its "pages build and deployment" and publishes the
+   updated site (including `docs/`) within a minute or two.
+3. Confirm the pages load (see URLs below), then paste them into App Store Connect:
+   the **Privacy Policy URL** under *App Privacy*, and the **Support URL** on the
+   version page.
 
-- **Support URL:** `https://jlee8388.github.io/fibonacci-panic/`
-- **Privacy Policy URL:** `https://jlee8388.github.io/fibonacci-panic/privacy-policy.html`
+## Your live URLs (with the current root configuration)
 
-Open both in a browser to confirm they load, then paste them into App Store
-Connect (Support URL on the version page; Privacy Policy URL under **App Privacy**).
+- **Support URL:** `https://jlee8388.github.io/fibonacci-panic/docs/`
+- **Privacy Policy URL:** `https://jlee8388.github.io/fibonacci-panic/docs/privacy-policy.html`
 
-> If you later rename the repository, the URL changes to
-> `https://<owner>.github.io/<new-repo-name>/`. Update App Store Connect to match.
+The `/docs/` segment is there because Pages serves from the repo root and the
+site lives in the `docs/` folder. This is a perfectly valid URL for Apple.
+
+## Optional: cleaner URLs without `/docs/`
+
+If you'd rather the URLs be `https://jlee8388.github.io/fibonacci-panic/` and
+`.../privacy-policy.html` (no `/docs/`), change the Pages **folder** once:
+
+1. Repo → **Settings → Pages → Build and deployment**.
+2. Source: **Deploy from a branch**, Branch: **`main`**, Folder: **`/docs`**. Save.
+3. Then drop `/docs/` from the two URLs above and update `store/listing.md`.
+
+> If you ever rename the repository, the URLs change to
+> `https://<owner>.github.io/<new-repo-name>/...`. Update App Store Connect to match.
+
+## Notes
+
+- The support/privacy contact email is set to `questions@ailaunchingpad.com`.
+- A root `.nojekyll` is included so Pages serves the static HTML as-is.
+- The site collects no data and matches the app's "Data Not Collected" privacy label.

@@ -71,9 +71,9 @@ v1.0 — Initial release. Pass the bomb, survive the fuse, blame your friends.
 A ready-to-publish GitHub Pages site lives in `docs/` (landing page + privacy
 policy). Once you enable Pages (see `store/HOSTING.md`), these URLs go live:
 
-- **Support URL** (required): `https://jlee8388.github.io/fibonacci-panic/`
-- **Marketing URL** (optional): `https://jlee8388.github.io/fibonacci-panic/`
-- **Privacy Policy URL** (required): `https://jlee8388.github.io/fibonacci-panic/privacy-policy.html`
+- **Support URL** (required): `https://jlee8388.github.io/fibonacci-panic/docs/`
+- **Marketing URL** (optional): `https://jlee8388.github.io/fibonacci-panic/docs/`
+- **Privacy Policy URL** (required): `https://jlee8388.github.io/fibonacci-panic/docs/privacy-policy.html`
 
 > Support contact email is set to `questions@ailaunchingpad.com` across the
 > `docs/` pages and privacy policy.

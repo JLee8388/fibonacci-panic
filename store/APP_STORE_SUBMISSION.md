@@ -90,12 +90,13 @@ Fill these from [`store/listing.md`](./listing.md):
 
 - [ ] **Name**, **Subtitle**, **Promotional text**, **Description**, **Keywords**.
 - [ ] **Support URL** and (optional) **Marketing URL** — a ready-made landing page
-      ships in `docs/index.html`. Enable GitHub Pages per [`store/HOSTING.md`](./HOSTING.md)
-      and use `https://jlee8388.github.io/fibonacci-panic/`.
+      ships in `docs/index.html`. GitHub Pages is already enabled (serves `main`/root),
+      so after this PR merges use `https://jlee8388.github.io/fibonacci-panic/docs/`.
+      See [`store/HOSTING.md`](./HOSTING.md).
 - [ ] **Category:** Primary **Games → Casual**; Secondary **Games → Family** (optional).
 - [ ] 🚪 **Privacy Policy URL** — required for every app. A hosted policy ships in
-      `docs/privacy-policy.html`. Enable GitHub Pages ([`store/HOSTING.md`](./HOSTING.md))
-      and use `https://jlee8388.github.io/fibonacci-panic/privacy-policy.html`.
+      `docs/privacy-policy.html`. After merge, use
+      `https://jlee8388.github.io/fibonacci-panic/docs/privacy-policy.html`.
       (Support contact email is already set to `questions@ailaunchingpad.com`.)
 - [ ] 🚪 **App Privacy ("nutrition label").** Answer the questionnaire:
       this app **collects no data** → choose **"Data Not Collected."** (No
