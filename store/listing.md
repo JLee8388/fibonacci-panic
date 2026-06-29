@@ -68,11 +68,15 @@ v1.0 — Initial release. Pass the bomb, survive the fuse, blame your friends.
 
 ## URLs
 
-- **Support URL:** required. Use a simple page you control (GitHub Pages, a
-  Notion page, or the privacy policy page). Example placeholder:
-  `https://<your-github-username>.github.io/short-fuse/`
-- **Marketing URL:** optional.
-- **Privacy Policy URL:** required — host `store/privacy-policy.md` / `.html`.
+A ready-to-publish GitHub Pages site lives in `docs/` (landing page + privacy
+policy). Once you enable Pages (see `store/HOSTING.md`), these URLs go live:
+
+- **Support URL** (required): `https://jlee8388.github.io/fibonacci-panic/`
+- **Marketing URL** (optional): `https://jlee8388.github.io/fibonacci-panic/`
+- **Privacy Policy URL** (required): `https://jlee8388.github.io/fibonacci-panic/privacy-policy.html`
+
+> Before publishing, replace `REPLACE_WITH_YOUR_SUPPORT_EMAIL` in
+> `docs/index.html` and `docs/privacy-policy.html` with a real contact email.
 
 ## Category
 

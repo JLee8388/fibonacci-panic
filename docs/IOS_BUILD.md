@@ -40,10 +40,11 @@ This generates the `ios/` Xcode project (git-ignored by default). It reads
 `capacitor.config.json`, so the app name (**Short Fuse**) and bundle id come
 from there.
 
-> 🔧 **Change the bundle id first.** Edit `capacitor.config.json` →
-> `"appId"` from the placeholder `com.example.shortfuse` to your own
-> reverse-domain id (e.g. `com.yourname.shortfuse`) **before** `cap add ios`,
-> or change it later in Xcode under Signing & Capabilities.
+> 🔧 **Bundle id.** `capacitor.config.json` → `"appId"` is set to
+> `com.jlee8388.shortfuse` by default. You don't need to own this domain — it
+> just has to be globally unique. Change the `jlee8388` segment to your name if
+> you like, **before** `cap add ios` (or later in Xcode under Signing &
+> Capabilities). Keep `capacitor.config.json` and Xcode in sync.
 
 ## 3. Generate app icons & launch screen
 

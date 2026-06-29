@@ -24,10 +24,13 @@ hurdle (could get the app rejected) · ✅ = already handled in this repo.
 
 ## 1. Identity & accounts
 
-- [ ] Decide your **Bundle ID** (reverse-domain, globally unique), e.g.
-      `com.yourname.fibonaccipanic`. Update it in:
-  - `capacitor.config.json` → `appId` (currently the placeholder `com.example.fibonaccipanic`)
+- [ ] Confirm/adjust your **Bundle ID** (reverse-domain, globally unique). A
+      sensible default is already set: `com.jlee8388.shortfuse`. You don't need to
+      own this domain — it just has to be unique in Apple's system. Change the
+      `jlee8388` segment to your name if you prefer, in both:
+  - `capacitor.config.json` → `appId`
   - Xcode target → Signing & Capabilities → Bundle Identifier
+- [ ] Whatever you choose, make sure both places match exactly.
 - [ ] Register the Bundle ID under **Certificates, Identifiers & Profiles**
       (Xcode's "Automatically manage signing" will do this for you on first run).
 - [ ] In **App Store Connect** → **Apps → +** → create the app record:
@@ -86,22 +89,25 @@ hurdle (could get the app rejected) · ✅ = already handled in this repo.
 Fill these from [`store/listing.md`](./listing.md):
 
 - [ ] **Name**, **Subtitle**, **Promotional text**, **Description**, **Keywords**.
-- [ ] **Support URL** and (optional) **Marketing URL** — you must host *something*
-      reachable. A simple GitHub Pages page or the privacy policy URL works.
+- [ ] **Support URL** and (optional) **Marketing URL** — a ready-made landing page
+      ships in `docs/index.html`. Enable GitHub Pages per [`store/HOSTING.md`](./HOSTING.md)
+      and use `https://jlee8388.github.io/fibonacci-panic/`.
 - [ ] **Category:** Primary **Games → Casual**; Secondary **Games → Family** (optional).
-- [ ] 🚪 **Privacy Policy URL** — required for every app. Host
-      [`store/privacy-policy.md`](./privacy-policy.md) (or the `.html`) somewhere
-      public (GitHub Pages is fine) and paste the URL.
+- [ ] 🚪 **Privacy Policy URL** — required for every app. A hosted policy ships in
+      `docs/privacy-policy.html`. Enable GitHub Pages ([`store/HOSTING.md`](./HOSTING.md))
+      and use `https://jlee8388.github.io/fibonacci-panic/privacy-policy.html`.
+      (Replace `REPLACE_WITH_YOUR_SUPPORT_EMAIL` in the `docs/` pages first.)
 - [ ] 🚪 **App Privacy ("nutrition label").** Answer the questionnaire:
       this app **collects no data** → choose **"Data Not Collected."** (No
       analytics, no accounts, no network calls.)
 - [ ] 🚪 **Age rating questionnaire.** See [`store/listing.md`](./listing.md) for the
       exact answers. Cartoon bomb/explosion → expect a **9+** rating
       ("Infrequent/Mild Cartoon or Fantasy Violence").
-- [ ] 🚪 **Screenshots.** Required at minimum for **6.9"/6.7" iPhone**. Capture from
-      the iOS Simulator (see `docs/IOS_BUILD.md`): the menu, an active round, the
-      panic/critical state, and the BOOM game-over screen. If you kept iPad
-      enabled, you must also supply 13" iPad shots.
+- [ ] 🚪 **Screenshots.** Pre-generated at Apple's exact sizes in
+      `store/screenshots/` — **6.9"** (1320×2868) and **6.7"** (1290×2796), four
+      scenes each: menu, active round, panic/critical, and BOOM game-over. Upload
+      these directly, or re-capture from the iOS Simulator if you prefer (see
+      `docs/IOS_BUILD.md`). If you kept iPad enabled, you must also supply 13" iPad shots.
 - [ ] **App icon** is taken from the build automatically (1024 marketing icon).
 - [ ] **Copyright**, e.g. `2026 <Your Name>`.
 - [ ] **Pricing & Availability:** set Free (or a tier), choose territories.
