@@ -75,8 +75,8 @@ policy). Once you enable Pages (see `store/HOSTING.md`), these URLs go live:
 - **Marketing URL** (optional): `https://jlee8388.github.io/fibonacci-panic/`
 - **Privacy Policy URL** (required): `https://jlee8388.github.io/fibonacci-panic/privacy-policy.html`
 
-> Before publishing, replace `REPLACE_WITH_YOUR_SUPPORT_EMAIL` in
-> `docs/index.html` and `docs/privacy-policy.html` with a real contact email.
+> Support contact email is set to `questions@ailaunchingpad.com` across the
+> `docs/` pages and privacy policy.
 
 ## Category
 

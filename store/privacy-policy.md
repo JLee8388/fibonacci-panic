@@ -34,4 +34,4 @@ a revised "Last updated" date.
 
 ## Contact
 
-For questions about this policy, contact: `<your-support-email>`
+For questions about this policy, contact: questions@ailaunchingpad.com

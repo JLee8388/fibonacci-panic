@@ -11,9 +11,8 @@ You just need to turn GitHub Pages on. It's free and takes about a minute.
 
 ## One-time setup
 
-1. Before publishing, open `docs/index.html` and `docs/privacy-policy.html` and
-   replace every `REPLACE_WITH_YOUR_SUPPORT_EMAIL` with a real contact email.
-   Commit the change.
+1. Support contact email is already set to `questions@ailaunchingpad.com` in the
+   `docs/` pages. (Change it later if you ever want a different address.)
 2. Merge this PR (or push these files to your **default branch**, `main`).
 3. On GitHub, go to the repo → **Settings → Pages**.
 4. Under **Build and deployment → Source**, choose **Deploy from a branch**.

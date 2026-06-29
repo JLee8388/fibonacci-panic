@@ -96,7 +96,7 @@ Fill these from [`store/listing.md`](./listing.md):
 - [ ] 🚪 **Privacy Policy URL** — required for every app. A hosted policy ships in
       `docs/privacy-policy.html`. Enable GitHub Pages ([`store/HOSTING.md`](./HOSTING.md))
       and use `https://jlee8388.github.io/fibonacci-panic/privacy-policy.html`.
-      (Replace `REPLACE_WITH_YOUR_SUPPORT_EMAIL` in the `docs/` pages first.)
+      (Support contact email is already set to `questions@ailaunchingpad.com`.)
 - [ ] 🚪 **App Privacy ("nutrition label").** Answer the questionnaire:
       this app **collects no data** → choose **"Data Not Collected."** (No
       analytics, no accounts, no network calls.)
