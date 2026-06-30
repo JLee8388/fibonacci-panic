@@ -12,8 +12,8 @@ Legend: 📋 = paste the value as-is · ✏️ = your input needed · ☑️ = p
 **App Store Connect → Apps → ➕ → New App**
 
 - ☑️ **Platforms:** iOS
-- 📋 **Name:** `Short Fuse`
-  - ⚠️ If "Short Fuse" is taken, use a fallback: `Short Fuse: Party Bomb` or `Short Fuse - Pass the Bomb`
+- 📋 **Name:** `Short Fuze`
+  - ⚠️ If "Short Fuze" is taken, use a fallback: `Short Fuze: Party Bomb` or `Short Fuze - Pass the Bomb`
 - ☑️ **Primary Language:** `English (U.S.)`
 - ☑️ **Bundle ID:** select `com.jlee8388.shortfuse` (it appears here after your first Xcode upload/registration)
 - 📋 **SKU:** `SHORTFUSE001`  _(internal only, never shown publicly — any unique string works)_
@@ -58,7 +58,7 @@ Legend: 📋 = paste the value as-is · ✏️ = your input needed · ☑️ = p
   ```
 - 📋 **Description:**
   ```
-  Short Fuse is the fast, loud, pass-the-bomb party game for you and three friends — all on one phone.
+  Short Fuze is the fast, loud, pass-the-bomb party game for you and three friends — all on one phone.
 
   Pass the bomb before the fuse burns out. Whoever's holding it when it blows takes the L. The catch? Nothing is predictable.
 
@@ -110,7 +110,7 @@ Legend: 📋 = paste the value as-is · ✏️ = your input needed · ☑️ = p
 - 📋 **Notes:**
   ```
   WHAT THIS APP IS
-  Short Fuse is a self-contained, offline "pass-the-bomb" party game for up to 4
+  Short Fuze is a self-contained, offline "pass-the-bomb" party game for up to 4
   players sharing ONE device. No online component, no account, no login, no IAP.
 
   HOW TO TEST IT (single reviewer)
@@ -191,7 +191,7 @@ This happens on your Mac before the Build picker in Step 5 works. See
 
 1. `‹Your name›` for Copyright + App Review contact name
 2. `‹your phone›` for the App Review contact
-3. Pick **Short Fuse** vs. a fallback name if it's taken
+3. Pick **Short Fuze** vs. a fallback name if it's taken
 4. (Optional) change `com.jlee8388.shortfuse` to your own name segment
 
 Everything else is paste-as-is.

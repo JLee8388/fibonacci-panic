@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Generate the App Store icon and splash artwork for Short Fuse.
+"""Generate the App Store icon and splash artwork for Short Fuze.
 
 Reproducible source-of-truth for the brand art. Outputs:
   resources/icon.png          1024x1024  (App Store / home-screen icon source)
@@ -148,7 +148,7 @@ def make_splash(name, bg_color, title_color):
     d = ImageDraw.Draw(img)
     title_font = load_font(300)
     sub_font = load_font(80)
-    title = "SHORT FUSE"
+    title = "SHORT FUZE"
     tb = d.textbbox((0, 0), title, font=title_font)
     d.text(((size - (tb[2] - tb[0])) / 2, size * 0.58), title, font=title_font, fill=title_color)
     sub = "4 PLAYERS . PURE RANDOM CHAOS"

@@ -1,4 +1,4 @@
-# Short Fuse — Roadmap
+# Short Fuze — Roadmap
 
 This file tracks where the game is and where it's headed. The codebase is
 deliberately structured so new features slot in without touching the core

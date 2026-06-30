@@ -1,4 +1,4 @@
-# iOS Build Guide — Short Fuse
+# iOS Build Guide — Short Fuze
 
 Everything needed to turn this repo into a signed app on your iPhone and an
 upload to App Store Connect. **All of this runs on your Mac** (Apple requires
@@ -37,7 +37,7 @@ npx cap add ios
 ```
 
 This generates the `ios/` Xcode project (git-ignored by default). It reads
-`capacitor.config.json`, so the app name (**Short Fuse**) and bundle id come
+`capacitor.config.json`, so the app name (**Short Fuze**) and bundle id come
 from there.
 
 > 🔧 **Bundle id.** `capacitor.config.json` → `"appId"` is set to
@@ -71,7 +71,7 @@ npm run cap:open   # opens ios/App/App.xcworkspace in Xcode
 
 In the **App** target:
 
-- **General → Identity:** Display Name `Short Fuse`, Version `1.0.0`, Build `1`.
+- **General → Identity:** Display Name `Short Fuze`, Version `1.0.0`, Build `1`.
 - **General → Deployment Info:** Deployment Target `iOS 14.0`; set **iPhone**
   only (uncheck iPad for v1); Portrait orientation.
 - **Signing & Capabilities:** check **Automatically manage signing**, pick your

@@ -1,4 +1,4 @@
-# Short Fuse
+# Short Fuze
 
 A fast, loud, 4-player **pass-the-bomb party game** for one device. When the
 bomb lands on you, tap your corner to pass it on — just don't be holding it when

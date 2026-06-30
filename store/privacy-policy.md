@@ -1,13 +1,13 @@
-# Privacy Policy — Short Fuse
+# Privacy Policy — Short Fuze
 
 _Last updated: 2026_
 
-Short Fuse ("the app") is a local, single-device party game. Your privacy is
+Short Fuze ("the app") is a local, single-device party game. Your privacy is
 simple to explain because the app is built not to touch your data.
 
 ## Data we collect
 
-**None.** Short Fuse does not collect, store, transmit, or share any personal
+**None.** Short Fuze does not collect, store, transmit, or share any personal
 information.
 
 Specifically, the app:

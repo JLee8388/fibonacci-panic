@@ -1,4 +1,4 @@
-# App Store Listing — Short Fuse
+# App Store Listing — Short Fuze
 
 Copy/paste these fields into App Store Connect. Character limits noted where
 Apple enforces them.
@@ -8,12 +8,12 @@ Apple enforces them.
 ## Name (≤30 chars)
 
 ```
-Short Fuse
+Short Fuze
 ```
 
-> ⚠️ Verify "Short Fuse" is available on the App Store before relying on it.
+> ⚠️ Verify "Short Fuze" is available on the App Store before relying on it.
 > It's a common phrase, so a fallback display name may be needed, e.g.
-> "Short Fuse: Party Bomb" (≤30) or "Short Fuse — Pass the Bomb".
+> "Short Fuze: Party Bomb" (≤30) or "Short Fuze — Pass the Bomb".
 
 ## Subtitle (≤30 chars)
 
@@ -30,7 +30,7 @@ Gather your crew, pass the bomb, and don't be holding it when the fuse runs out.
 ## Description (≤4000 chars)
 
 ```
-Short Fuse is the fast, loud, pass-the-bomb party game for you and three friends — all on one phone.
+Short Fuze is the fast, loud, pass-the-bomb party game for you and three friends — all on one phone.
 
 Pass the bomb before the fuse burns out. Whoever's holding it when it blows takes the L. The catch? Nothing is predictable.
 

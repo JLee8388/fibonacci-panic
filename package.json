@@ -1,7 +1,7 @@
 {
-  "name": "short-fuse",
+  "name": "short-fuze",
   "version": "1.0.0",
-  "description": "Short Fuse — a 4-player local pass-and-play party game, wrapped as a native iOS app with Capacitor.",
+  "description": "Short Fuze — a 4-player local pass-and-play party game, wrapped as a native iOS app with Capacitor.",
   "type": "module",
   "private": true,
   "scripts": {

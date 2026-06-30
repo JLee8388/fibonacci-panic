@@ -1,6 +1,6 @@
 # App Store Submission — Checklist & Stage Gates
 
-This is the end-to-end path to get **Short Fuse** onto the Apple App
+This is the end-to-end path to get **Short Fuze** onto the Apple App
 Store, plus the hurdles that are specific to *this* app (a simple, offline
 party game wrapped from web tech). Work top to bottom.
 
@@ -38,10 +38,10 @@ hurdle (could get the app rejected) · ✅ = already handled in this repo.
 - [ ] Register the Bundle ID under **Certificates, Identifiers & Profiles**
       (Xcode's "Automatically manage signing" will do this for you on first run).
 - [ ] In **App Store Connect** → **Apps → +** → create the app record:
-  - Platform: iOS · Name: **Short Fuse** (must be unique store-wide — see ⚠️ below)
+  - Platform: iOS · Name: **Short Fuze** (must be unique store-wide — see ⚠️ below)
   - Primary language, Bundle ID (the one above), SKU (any internal string, e.g. `FIBPANIC001`).
 
-> ⚠️ **App name availability.** "Short Fuse" must not already be taken on
+> ⚠️ **App name availability.** "Short Fuze" must not already be taken on
 > the App Store. Check by searching the store first. If taken, pick a variant
 > (the *display* name can differ from the marketing name). Reserve it early —
 > creating the app record locks the name to your account.

@@ -1,4 +1,4 @@
-// Pure game engine — the heart of Short Fuse.
+// Pure game engine — the heart of Short Fuze.
 //
 // This module contains NO DOM, audio, haptics, or timer code. Every function
 // is pure: it takes the current state (and, where randomness is involved, an

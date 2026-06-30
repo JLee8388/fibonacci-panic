@@ -1,4 +1,4 @@
-# App Review Notes — Short Fuse
+# App Review Notes — Short Fuze
 
 Paste this into **App Store Connect → App Review Information → Notes**. It tells
 the reviewer how to evaluate a local multiplayer game and preempts the common
@@ -8,7 +8,7 @@ rejection reasons.
 
 ```
 WHAT THIS APP IS
-Short Fuse is a self-contained, offline "pass-the-bomb" party game for up to 4
+Short Fuze is a self-contained, offline "pass-the-bomb" party game for up to 4
 players sharing ONE device. There is no online component, no account, no login,
 and no in-app purchases.
 
